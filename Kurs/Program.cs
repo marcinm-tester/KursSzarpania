@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CityBase.Estates;
+using System;
+using System.Threading;
 
 namespace CityBase
 {
@@ -13,6 +15,10 @@ namespace CityBase
             Console.WriteLine("#         Projekt: CityBase       #");
             Console.WriteLine("#            module 6             #");
             Console.WriteLine("###################################\n");
+
+
+            Estate estate = new Estate();
+            Console.WriteLine(estate);            
         }
     }
 }
