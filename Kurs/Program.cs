@@ -9,7 +9,13 @@ namespace Kurs
             string Name;
             int Number;
 
-            Console.WriteLine("Kurs Szarpania - by Marek Zając");
+            Console.WriteLine("###################################");
+            Console.WriteLine("# Kurs Szarpania - by Marek Zając #");
+            Console.WriteLine("#        Developer - Marcin M.    #");
+            Console.WriteLine("#                                 #");
+            Console.WriteLine("#               moduł 7           #");
+            Console.WriteLine("#         interakcja z userem     #");
+            Console.WriteLine("###################################\n");
 
             Console.Write("Podaj imie: ");
             Name = Console.ReadLine();
