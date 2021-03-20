@@ -8,7 +8,13 @@ namespace Kurs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Kurs Szarpania - by Marek Zając");
+            Console.WriteLine("###################################");
+            Console.WriteLine("# Kurs Szarpania - by Marek Zając #");
+            Console.WriteLine("#        Developer - Marcin M.    #");
+            Console.WriteLine("#                                 #");
+            Console.WriteLine("#         moduł 6 - ex.1 & 2      #");
+            Console.WriteLine("#            namespaces           #");
+            Console.WriteLine("###################################\n");
 
             fns.First ff1 = new fns.First();
             fns.First ff2 = new fns.First();
