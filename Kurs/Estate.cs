@@ -9,7 +9,7 @@ namespace Kurs
     class Estate
     {
         string Address;
-        string Number;
+        int Number;
         decimal Length;
         decimal Width;
         decimal Price;
