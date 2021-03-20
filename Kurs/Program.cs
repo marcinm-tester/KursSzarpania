@@ -1,6 +1,7 @@
 ﻿using fns = FirstNameSpace;
 using SecondNameSpace;
 using System;
+using OtherNameSpace;
 
 namespace Kurs
 {
@@ -12,14 +13,14 @@ namespace Kurs
             Console.WriteLine("# Kurs Szarpania - by Marek Zając #");
             Console.WriteLine("#        Developer - Marcin M.    #");
             Console.WriteLine("#                                 #");
-            Console.WriteLine("#         moduł 6 - ex.1 & 2      #");
+            Console.WriteLine("#         moduł 6 - ex.3          #");
             Console.WriteLine("#            namespaces           #");
             Console.WriteLine("###################################\n");
 
             fns.First ff1 = new fns.First();
             fns.First ff2 = new fns.First();
-            fns.Second so1 = new fns.Second();
-            fns.Second so2 = new fns.Second();
+            Second so1 = new Second();
+            Second so2 = new Second();
 
             First fs1 = new First();
             First fs2 = new First();
