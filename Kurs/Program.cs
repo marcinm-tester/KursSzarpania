@@ -10,13 +10,14 @@ namespace Kurs
             Console.WriteLine("# Kurs Szarpania - by Marek Zając #");
             Console.WriteLine("#        Developer - Marcin M.    #");
             Console.WriteLine("#                                 #");
-            Console.WriteLine("#          module 8, ex.1         #");
-            Console.WriteLine("#               if                #");
+            Console.WriteLine("#          module 8, ex.2         #");
+            Console.WriteLine("#            if & enum            #");
             Console.WriteLine("###################################\n");
 
             decimal Number;
             decimal discount;
             decimal sum;
+            string type;
             Console.WriteLine("Podaj liczbę: ");
             Console.Write("> ");
             Number = decimal.Parse(Console.ReadLine());
@@ -32,8 +33,26 @@ namespace Kurs
             else discount = 0.2M;
 
             sum = Number * discount;
+
+            type = (Number - sum) > 400 ? UserType.Premium.ToString() : UserType.Standard.ToString();
+
             Console.WriteLine($"Rabat {discount * 100}% z {Number} wynosi {sum}");
+            if (type == "Standard")
+            {
+                Console.WriteLine("Użytkowniku, dziękujemy za zakupy");
+            }
+            else
+            {
+                Console.WriteLine("Użytkowniku! Serdecznie dziękujemy za zakupy!");
+            }
 
         }
+    }
+
+    enum UserType
+    {
+        Standard,
+        Premium
+
     }
 }
