@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CityBase.Estates;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace CityBase
 {
     class CityManager
     {
+        List<Estate> listEsatates = new List<Estate>();
     }
 }
