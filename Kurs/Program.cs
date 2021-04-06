@@ -14,6 +14,13 @@ namespace Kurs
             Console.WriteLine("#                                 #");
             Console.WriteLine("###################################\n");
 
+            string kot = "AAAA";
+            Console.WriteLine(sizeof(int));
+            Console.WriteLine(sizeof(char));
+            Console.WriteLine(sizeof(float));
+            Console.WriteLine(sizeof(decimal));
+
+
             Console.WriteLine("Napisz kilka zdań. Aby zakończyć naciśnij Enter.");
             Console.Write(">");
             string tekst = Console.ReadLine();
